@@ -1,17 +1,16 @@
-import './App.css';
+import "./App.css";
 import Navbar from "./components/Navbar";
-import Route from "./components/Route";
+import Routing from "./components/Routing";
 import Footer from "./components/Footer";
-
 function App() {
   return (
     <>
       <Navbar />
-      <Route />
+      <Routing />
       <Footer />
-    </> 
-    
+    </>
   );
 }
 
 export default App;
+
